@@ -1,0 +1,1851 @@
+{
+    "Snivy": {
+        "Name": "Snivy",
+        "HP": "60",
+        "Type": "Grass",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Tackle",
+                "Description": "",
+                "Damage": "10",
+                "Energy": {
+                    "Grass": 1
+                }
+            },
+            {
+                "Name": "Vine Whip",
+                "Description": "",
+                "Damage": "20",
+                "Energy": {
+                    "Grass": 1,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Servine": {
+        "Name": "Servine",
+        "HP": "80",
+        "Type": "Grass",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Snivy",
+        "Attacks": [
+            {
+                "Name": "Wring Out",
+                "Description": "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and discard an Energy attached to the Defending Pok\u00e9mon.",
+                "Damage": "30",
+                "Energy": {
+                    "Grass": 1,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Serperior": {
+        "Name": "Serperior",
+        "HP": "130",
+        "Type": "Grass",
+        "Stage": "Stage 2",
+        "EvolvesFrom": "Servine",
+        "Attacks": [
+            {
+                "Name": "Leaf Tornado",
+                "Description": "Move as many Grass Energy attached to your Pok\u00e9mon to your other Pok\u00e9mon in any way you like.",
+                "Damage": "60",
+                "Energy": {
+                    "Grass": 1,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": {
+            "Name": "Royal Heal",
+            "Description": "At any time between turns, heal 10 damage from each of your Pok\u00e9mon."
+        },
+        "RetreatCost": 1
+    },
+    "Simisage": {
+        "Name": "Simisage",
+        "HP": "90",
+        "Type": "Grass",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Pansage",
+        "Attacks": [
+            {
+                "Name": "Seed Bomb",
+                "Description": "",
+                "Damage": "30",
+                "Energy": {
+                    "Grass": 1
+                }
+            },
+            {
+                "Name": "Fury Swipes",
+                "Description": "Flip 3 coins. This attack does 40 damage times the number of heads.",
+                "Damage": "40\u00d7",
+                "Energy": {
+                    "Colorless": 3
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Pansage": {
+        "Name": "Pansage",
+        "HP": "60",
+        "Type": "Grass",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Scratch",
+                "Description": "",
+                "Damage": "10",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Vine Whip",
+                "Description": "",
+                "Damage": "30",
+                "Energy": {
+                    "Grass": 1,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Petilil": {
+        "Name": "Petilil",
+        "HP": "50",
+        "Type": "Grass",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Magical Leaf",
+                "Description": "Flip a coin. If heads, this attack does 10 more damage and heal 10 damage from this Pok\u00e9mon.",
+                "Damage": "10+",
+                "Energy": {
+                    "Grass": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Lilligant": {
+        "Name": "Lilligant",
+        "HP": "80",
+        "Type": "Grass",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Petilil",
+        "Attacks": [
+            {
+                "Name": "Petal Dance",
+                "Description": "Flip 3 coins. This attack does 30 damage times the number of heads. This Pok\u00e9mon is now confused.",
+                "Damage": "30\u00d7",
+                "Energy": {
+                    "Grass": 1
+                }
+            },
+            {
+                "Name": "Leaf Storm",
+                "Description": "Heal 20 damage from each of your Grass Pok\u00e9mon.",
+                "Damage": "30",
+                "Energy": {
+                    "Grass": 1,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Maractus": {
+        "Name": "Maractus",
+        "HP": "90",
+        "Type": "Grass",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Constant Rattle",
+                "Description": "Flip 3 coins. If 1 of them is heads, this attack does 10 damage. If 2 of them are heads, this attack does 30 damage. If all of them are heads, this attack does 60 damage.",
+                "Damage": "",
+                "Energy": {
+                    "Grass": 1
+                }
+            },
+            {
+                "Name": "Giga Drain",
+                "Description": "Heal from this Pok\u00e9mon the same amount of damage you did to the Defending Pok\u00e9mon.",
+                "Damage": "50",
+                "Energy": {
+                    "Grass": 3
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Sawsbuck": {
+        "Name": "Sawsbuck",
+        "HP": "90",
+        "Type": "Grass",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Deerling",
+        "Attacks": [
+            {
+                "Name": "Nature Power",
+                "Description": "Does 10 more damage for each Grass Energy attached to both your and your opponent's Pok\u00e9mon.",
+                "Damage": "20+",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Horn Leech",
+                "Description": "Heal 20 damage from this Pok\u00e9mon.",
+                "Damage": "60",
+                "Energy": {
+                    "Grass": 1,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Deerling": {
+        "Name": "Deerling",
+        "HP": "60",
+        "Type": "Grass",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Double Kick",
+                "Description": "Flip 2 coins. This attack does 10 damage times the number of heads.",
+                "Damage": "10\u00d7",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Leech Seed",
+                "Description": "Heal 10 damage from this Pok\u00e9mon.",
+                "Damage": "20",
+                "Energy": {
+                    "Grass": 1,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Tepig": {
+        "Name": "Tepig",
+        "HP": "70",
+        "Type": "Fire",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Take Down",
+                "Description": "This Pok\u00e9mon does 10 damage to itself.",
+                "Damage": "30",
+                "Energy": {
+                    "Fire": 1,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Emboar": {
+        "Name": "Emboar",
+        "HP": "150",
+        "Type": "Fire",
+        "Stage": "Stage 2",
+        "EvolvesFrom": "Pignite",
+        "Attacks": [
+            {
+                "Name": "Heat Crash",
+                "Description": "",
+                "Damage": "80",
+                "Energy": {
+                    "Fire": 2,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": {
+            "Name": "Inferno Fandango",
+            "Description": "As often as you like during your turn (before your attack), you may attach a Fire Energy card from your hand to 1 of your Pok\u00e9mon."
+        },
+        "RetreatCost": 4
+    },
+    "Pignite": {
+        "Name": "Pignite",
+        "HP": "100",
+        "Type": "Fire",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Tepig",
+        "Attacks": [
+            {
+                "Name": "Rollout",
+                "Description": "",
+                "Damage": "20",
+                "Energy": {
+                    "Colorless": 2
+                }
+            },
+            {
+                "Name": "Flamethrower",
+                "Description": "Discard an Energy attached to this Pok\u00e9mon.",
+                "Damage": "70",
+                "Energy": {
+                    "Fire": 2,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 3
+    },
+    "Pansear": {
+        "Name": "Pansear",
+        "HP": "60",
+        "Type": "Fire",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Scratch",
+                "Description": "",
+                "Damage": "10",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Live Coal",
+                "Description": "",
+                "Damage": "30",
+                "Energy": {
+                    "Fire": 1,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Darumaka": {
+        "Name": "Darumaka",
+        "HP": "70",
+        "Type": "Fire",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Firebreathing",
+                "Description": "Flip a coin. If heads, this attack does 10 more damage.",
+                "Damage": "10+",
+                "Energy": {
+                    "Fire": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Simisear": {
+        "Name": "Simisear",
+        "HP": "90",
+        "Type": "Fire",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Pansear",
+        "Attacks": [
+            {
+                "Name": "Flame Burst",
+                "Description": "Does 20 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+                "Damage": "20",
+                "Energy": {
+                    "Fire": 1
+                }
+            },
+            {
+                "Name": "Fury Swipes",
+                "Description": "Flip 3 coins. This attack does 40 damage times the number of heads.",
+                "Damage": "40\u00d7",
+                "Energy": {
+                    "Colorless": 3
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Darmanitan": {
+        "Name": "Darmanitan",
+        "HP": "120",
+        "Type": "Fire",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Darumaka",
+        "Attacks": [
+            {
+                "Name": "Fire Fang",
+                "Description": "The Defending Pok\u00e9mon is now Burned.",
+                "Damage": "20",
+                "Energy": {
+                    "Fire": 1,
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Thrash",
+                "Description": "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pok\u00e9mon does 20 damage to itself.",
+                "Damage": "70+",
+                "Energy": {
+                    "Fire": 1,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Reshiram": {
+        "Name": "Reshiram",
+        "HP": "130",
+        "Type": "Fire",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Outrage",
+                "Description": "Does 10 more for each damage counter on this Pok\u00e9mon.",
+                "Damage": "20+",
+                "Energy": {
+                    "Colorless": 2
+                }
+            },
+            {
+                "Name": "Blue Flare",
+                "Description": "Discard 2 Fire Energy attached to this Pok\u00e9mon.",
+                "Damage": "120",
+                "Energy": {
+                    "Fire": 2,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Oshawott": {
+        "Name": "Oshawott",
+        "HP": "60",
+        "Type": "Water",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Razor Shell",
+                "Description": "Flip a coin. If heads, this attack does 20 more damage.",
+                "Damage": "20+",
+                "Energy": {
+                    "Water": 1,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Samurott": {
+        "Name": "Samurott",
+        "HP": "140",
+        "Type": "Water",
+        "Stage": "Stage 2",
+        "EvolvesFrom": "Dewott",
+        "Attacks": [
+            {
+                "Name": "Hydro Pump",
+                "Description": "Does 10 more damage for each Water Energy attached to this Pok\u00e9mon.",
+                "Damage": "70+",
+                "Energy": {
+                    "Colorless": 3
+                }
+            }
+        ],
+        "Ability": {
+            "Name": "Shell Armor",
+            "Description": "Any damage done to this Pok\u00e9mon by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        },
+        "RetreatCost": 2
+    },
+    "Dewott": {
+        "Name": "Dewott",
+        "HP": "90",
+        "Type": "Water",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Oshawott",
+        "Attacks": [
+            {
+                "Name": "Water Gun",
+                "Description": "",
+                "Damage": "30",
+                "Energy": {
+                    "Colorless": 2
+                }
+            },
+            {
+                "Name": "Razor Shell",
+                "Description": "Flip a coin. If heads, this attack does 20 more damage.",
+                "Damage": "40+",
+                "Energy": {
+                    "Water": 2,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Basculin": {
+        "Name": "Basculin",
+        "HP": "70",
+        "Type": "Water",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Crunch",
+                "Description": "Flip a coin. If heads, discard an Energy attached to the Defending Pok\u00e9mon.",
+                "Damage": "30",
+                "Energy": {
+                    "Water": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Panpour": {
+        "Name": "Panpour",
+        "HP": "60",
+        "Type": "Water",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Scratch",
+                "Description": "",
+                "Damage": "10",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Water Gun",
+                "Description": "",
+                "Damage": "30",
+                "Energy": {
+                    "Water": 1,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Simipour": {
+        "Name": "Simipour",
+        "HP": "90",
+        "Type": "Water",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Panpour",
+        "Attacks": [
+            {
+                "Name": "Scald",
+                "Description": "The Defending Pok\u00e9mon is now Burned.",
+                "Damage": "20",
+                "Energy": {
+                    "Water": 1
+                }
+            },
+            {
+                "Name": "Fury Swipes",
+                "Description": "Flip 3 coins. This attack does 40 damage times the number of heads.",
+                "Damage": "40\u00d7",
+                "Energy": {
+                    "Colorless": 3
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Swanna": {
+        "Name": "Swanna",
+        "HP": "90",
+        "Type": "Water",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Ducklett",
+        "Attacks": [
+            {
+                "Name": "Feather Dance",
+                "Description": "During your next turn, each of this Pok\u00e9mon's attacks does 40 more damage (before applying Weakness and Resistance).",
+                "Damage": "",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Aqua Ring",
+                "Description": "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
+                "Damage": "40",
+                "Energy": {
+                    "Water": 1,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Ducklett": {
+        "Name": "Ducklett",
+        "HP": "60",
+        "Type": "Water",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Water Gun",
+                "Description": "",
+                "Damage": "10",
+                "Energy": {
+                    "Water": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Alomomola": {
+        "Name": "Alomomola",
+        "HP": "100",
+        "Type": "Water",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Water Pulse",
+                "Description": "The Defending Pok\u00e9mon is now Asleep.",
+                "Damage": "20",
+                "Energy": {
+                    "Water": 1,
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Hydro Pump",
+                "Description": "Does 10 more damage for each Water Energy attached to this Pok\u00e9mon.",
+                "Damage": "40+",
+                "Energy": {
+                    "Colorless": 3
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 3
+    },
+    "Blitzle": {
+        "Name": "Blitzle",
+        "HP": "60",
+        "Type": "Lightning",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Rear Kick",
+                "Description": "",
+                "Damage": "20",
+                "Energy": {
+                    "Lightning": 1,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Zebstrika": {
+        "Name": "Zebstrika",
+        "HP": "90",
+        "Type": "Lightning",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Blitzle",
+        "Attacks": [
+            {
+                "Name": "Rear Kick",
+                "Description": "",
+                "Damage": "30",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Electrispark",
+                "Description": "Does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+                "Damage": "70",
+                "Energy": {
+                    "Lightning": 3
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Joltik": {
+        "Name": "Joltik",
+        "HP": "30",
+        "Type": "Lightning",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Leech Life",
+                "Description": "Heal from this Pok\u00e9mon the same amount of damage you did to the Defending Pok\u00e9mon.",
+                "Damage": "10",
+                "Energy": {
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Galvantula": {
+        "Name": "Galvantula",
+        "HP": "80",
+        "Type": "Lightning",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Joltik",
+        "Attacks": [
+            {
+                "Name": "Electroweb",
+                "Description": "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
+                "Damage": "20",
+                "Energy": {
+                    "Lightning": 1
+                }
+            },
+            {
+                "Name": "Leech Life",
+                "Description": "Heal from this Pok\u00e9mon the same amount of damage you did to the Defending Pok\u00e9mon.",
+                "Damage": "40",
+                "Energy": {
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Zekrom": {
+        "Name": "Zekrom",
+        "HP": "130",
+        "Type": "Lightning",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Outrage",
+                "Description": "Does 10 more damage for each damage counter on this Pok\u00e9mon.",
+                "Damage": "20+",
+                "Energy": {
+                    "Colorless": 2
+                }
+            },
+            {
+                "Name": "Bolt Strike",
+                "Description": "This Pok\u00e9mon does 40 damage to itself.",
+                "Damage": "120",
+                "Energy": {
+                    "Lightning": 2,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Munna": {
+        "Name": "Munna",
+        "HP": "70",
+        "Type": "Psychic",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Hypnosis",
+                "Description": "The Defending Pok\u00e9mon is now Asleep.",
+                "Damage": "",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Dream Eater",
+                "Description": "If the Defending Pok\u00e9mon is not Asleep, this attack does nothing.",
+                "Damage": "60",
+                "Energy": {
+                    "Psychic": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Musharna": {
+        "Name": "Musharna",
+        "HP": "90",
+        "Type": "Psychic",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Munna",
+        "Attacks": [
+            {
+                "Name": "Hypnotic Ray",
+                "Description": "The Defending Pok\u00e9mon is now Asleep.",
+                "Damage": "20",
+                "Energy": {
+                    "Psychic": 1
+                }
+            },
+            {
+                "Name": "Dream Eater",
+                "Description": "If the Defending Pok\u00e9mon is not Asleep, this attack does nothing.",
+                "Damage": "90",
+                "Energy": {
+                    "Psychic": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Swoobat": {
+        "Name": "Swoobat",
+        "HP": "80",
+        "Type": "Psychic",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Woobat",
+        "Attacks": [
+            {
+                "Name": "Attract",
+                "Description": "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+                "Damage": "",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Heart Stamp",
+                "Description": "",
+                "Damage": "40",
+                "Energy": {
+                    "Psychic": 1,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Venipede": {
+        "Name": "Venipede",
+        "HP": "70",
+        "Type": "Psychic",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Ram",
+                "Description": "",
+                "Damage": "10",
+                "Energy": {
+                    "Psychic": 1
+                }
+            },
+            {
+                "Name": "Rollout",
+                "Description": "",
+                "Damage": "30",
+                "Energy": {
+                    "Colorless": 3
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Whirlipede": {
+        "Name": "Whirlipede",
+        "HP": "90",
+        "Type": "Psychic",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Venipede",
+        "Attacks": [
+            {
+                "Name": "Poison Sting",
+                "Description": "The Defending Pok\u00e9mon is now Poisoned.",
+                "Damage": "20",
+                "Energy": {
+                    "Psychic": 1,
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Rollout",
+                "Description": "",
+                "Damage": "50",
+                "Energy": {
+                    "Psychic": 1,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Woobat": {
+        "Name": "Woobat",
+        "HP": "50",
+        "Type": "Psychic",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Gust",
+                "Description": "",
+                "Damage": "10",
+                "Energy": {
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Solosis": {
+        "Name": "Solosis",
+        "HP": "30",
+        "Type": "Psychic",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Cell Culture",
+                "Description": "Search your deck for Solosis and put it into your Bench. Shuffle your deck afterward.",
+                "Damage": "",
+                "Energy": {
+                    "Psychic": 1
+                }
+            },
+            {
+                "Name": "Rollout",
+                "Description": "",
+                "Damage": "20",
+                "Energy": {
+                    "Psychic": 1,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Duosion": {
+        "Name": "Duosion",
+        "HP": "60",
+        "Type": "Psychic",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Solosis",
+        "Attacks": [
+            {
+                "Name": "Recover",
+                "Description": "Discard an Energy attached to this Pok\u00e9mon and heal all damage from this Pok\u00e9mon.",
+                "Damage": "",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Rollout",
+                "Description": "",
+                "Damage": "30",
+                "Energy": {
+                    "Psychic": 1,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Reuniclus": {
+        "Name": "Reuniclus",
+        "HP": "90",
+        "Type": "Psychic",
+        "Stage": "Stage 2",
+        "EvolvesFrom": "Duosion",
+        "Attacks": [
+            {
+                "Name": "Psywave",
+                "Description": "Does 10 more damage for each Energy attached to the Defending Pok\u00e9mon.",
+                "Damage": "30+",
+                "Energy": {
+                    "Psychic": 3
+                }
+            }
+        ],
+        "Ability": {
+            "Name": "Damage Swap",
+            "Description": "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pok\u00e9mon to another of your Pok\u00e9mon."
+        },
+        "RetreatCost": 2
+    },
+    "Scolipede": {
+        "Name": "Scolipede",
+        "HP": "150",
+        "Type": "Psychic",
+        "Stage": "Stage 2",
+        "EvolvesFrom": "Whirlipede",
+        "Attacks": [
+            {
+                "Name": "Steamroller",
+                "Description": "This attack's damage isn't affected by Resistance.",
+                "Damage": "60",
+                "Energy": {
+                    "Colorless": 3
+                }
+            },
+            {
+                "Name": "Poison Claws",
+                "Description": "The Defending Pok\u00e9mon is now Poisoned.",
+                "Damage": "80",
+                "Energy": {
+                    "Psychic": 2,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 3
+    },
+    "Timburr": {
+        "Name": "Timburr",
+        "HP": "70",
+        "Type": "Fighting",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Low Kick",
+                "Description": "",
+                "Damage": "10",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Pound",
+                "Description": "",
+                "Damage": "20",
+                "Energy": {
+                    "Fighting": 1,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Gurdurr": {
+        "Name": "Gurdurr",
+        "HP": "80",
+        "Type": "Fighting",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Timburr",
+        "Attacks": [
+            {
+                "Name": "Bulk Up",
+                "Description": "During your next turn, each of this Pok\u00e9mon's attacks does 20 more damage (before applying Weakness and Resistance).",
+                "Damage": "20",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Pound",
+                "Description": "",
+                "Damage": "60",
+                "Energy": {
+                    "Fighting": 2,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Throh": {
+        "Name": "Throh",
+        "HP": "100",
+        "Type": "Fighting",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Circle Throw",
+                "Description": "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon.",
+                "Damage": "30",
+                "Energy": {
+                    "Fighting": 1,
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Storm Throw",
+                "Description": "This attack's damage isn't affected by Resistance.",
+                "Damage": "80",
+                "Energy": {
+                    "Fighting": 2,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 3
+    },
+    "Sawk": {
+        "Name": "Sawk",
+        "HP": "90",
+        "Type": "Fighting",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Low Sweep",
+                "Description": "",
+                "Damage": "20",
+                "Energy": {
+                    "Fighting": 1
+                }
+            },
+            {
+                "Name": "Beatdown",
+                "Description": "",
+                "Damage": "40",
+                "Energy": {
+                    "Fighting": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Krokorok": {
+        "Name": "Krokorok",
+        "HP": "90",
+        "Type": "Fighting",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Sandile",
+        "Attacks": [
+            {
+                "Name": "Torment",
+                "Description": "Choose 1 of the Defending Pok\u00e9mon's attacks. That Pok\u00e9mon can't use that attack during your opponent's next turn.",
+                "Damage": "10",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Bite",
+                "Description": "",
+                "Damage": "50",
+                "Energy": {
+                    "Fighting": 1,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Sandile": {
+        "Name": "Sandile",
+        "HP": "70",
+        "Type": "Fighting",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Sand Tomb",
+                "Description": "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
+                "Damage": "10",
+                "Energy": {
+                    "Fighting": 1
+                }
+            },
+            {
+                "Name": "Bite",
+                "Description": "",
+                "Damage": "30",
+                "Energy": {
+                    "Fighting": 1,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Liepard": {
+        "Name": "Liepard",
+        "HP": "80",
+        "Type": "Darkness",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Purrloin",
+        "Attacks": [
+            {
+                "Name": "Taunt",
+                "Description": "Switch the Defending Pok\u00e9mon with 1 of your opponent's Benched Pok\u00e9mon.",
+                "Damage": "",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Sucker Punch",
+                "Description": "If this Pok\u00e9mon has any Darkness Energy attached to it, this attack does 30 more damage.",
+                "Damage": "30+",
+                "Energy": {
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Purrloin": {
+        "Name": "Purrloin",
+        "HP": "60",
+        "Type": "Darkness",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Scratch",
+                "Description": "",
+                "Damage": "10",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Slash",
+                "Description": "",
+                "Damage": "20",
+                "Energy": {
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Scraggy": {
+        "Name": "Scraggy",
+        "HP": "60",
+        "Type": "Darkness",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Headbutt",
+                "Description": "",
+                "Damage": "10",
+                "Energy": {
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Krookodile": {
+        "Name": "Krookodile",
+        "HP": "140",
+        "Type": "Fighting",
+        "Stage": "Stage 2",
+        "EvolvesFrom": "Krokorok",
+        "Attacks": [
+            {
+                "Name": "Torment",
+                "Description": "Choose 1 of the Defending Pok\u00e9mon's attacks. That Pok\u00e9mon can't use that attack during your opponent's next turn.",
+                "Damage": "30",
+                "Energy": {
+                    "Colorless": 2
+                }
+            },
+            {
+                "Name": "Krookoroll",
+                "Description": "If the Defending Pok\u00e9mon already has any damage counters on it, this attack does 40 more damage.",
+                "Damage": "60+",
+                "Energy": {
+                    "Fighting": 2,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 3
+    },
+    "Zorua": {
+        "Name": "Zorua",
+        "HP": "60",
+        "Type": "Darkness",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Lunge",
+                "Description": "Flip a coin. If tails, this attack does nothing.",
+                "Damage": "30",
+                "Energy": {
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Scrafty": {
+        "Name": "Scrafty",
+        "HP": "90",
+        "Type": "Darkness",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Scraggy",
+        "Attacks": [
+            {
+                "Name": "Spit Acid",
+                "Description": "The Defending Pok\u00e9mon is now Burned. Flip a coin. If heads, the Defending Pok\u00e9mon is also Paralyzed.",
+                "Damage": "20",
+                "Energy": {
+                    "Darkness": 1
+                }
+            },
+            {
+                "Name": "High Jump Kick",
+                "Description": "",
+                "Damage": "70",
+                "Energy": {
+                    "Darkness": 2,
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Zoroark": {
+        "Name": "Zoroark",
+        "HP": "100",
+        "Type": "Darkness",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Zorua",
+        "Attacks": [
+            {
+                "Name": "Nasty Plot",
+                "Description": "Search your deck for a card and put it into your hand. Shuffle your deck afterward.",
+                "Damage": "",
+                "Energy": {
+                    "Darkness": 1
+                }
+            },
+            {
+                "Name": "Foul Play",
+                "Description": "Choose 1 of the Defending Pok\u00e9mon's attacks and use it as this attack.",
+                "Damage": "",
+                "Energy": {
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Vullaby": {
+        "Name": "Vullaby",
+        "HP": "60",
+        "Type": "Darkness",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Surprise Attack",
+                "Description": "Flip a coin. If tails, this attack does nothing.",
+                "Damage": "20",
+                "Energy": {
+                    "Darkness": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Mandibuzz": {
+        "Name": "Mandibuzz",
+        "HP": "90",
+        "Type": "Darkness",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Vullaby",
+        "Attacks": [
+            {
+                "Name": "Blindside",
+                "Description": "Does 50 damage to 1 of your opponent's Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+                "Damage": "",
+                "Energy": {
+                    "Darkness": 1
+                }
+            },
+            {
+                "Name": "Punishment",
+                "Description": "If the Defending Pok\u00e9mon is a Stage 2 Pok\u00e9mon, this attack does 60 more damage.",
+                "Damage": "40+",
+                "Energy": {
+                    "Darkness": 1,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Klang": {
+        "Name": "Klang",
+        "HP": "80",
+        "Type": "Metal",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Klink",
+        "Attacks": [
+            {
+                "Name": "Bind",
+                "Description": "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+                "Damage": "10",
+                "Energy": {
+                    "Metal": 1
+                }
+            },
+            {
+                "Name": "Gear Grind",
+                "Description": "Flip 2 coins. This attack does 60 damage times the number of heads.",
+                "Damage": "60\u00d7",
+                "Energy": {
+                    "Metal": 1,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Klink": {
+        "Name": "Klink",
+        "HP": "60",
+        "Type": "Metal",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Bind",
+                "Description": "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+                "Damage": "10",
+                "Energy": {
+                    "Metal": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Klinklang": {
+        "Name": "Klinklang",
+        "HP": "140",
+        "Type": "Metal",
+        "Stage": "Stage 2",
+        "EvolvesFrom": "Klang",
+        "Attacks": [
+            {
+                "Name": "Gear Grind",
+                "Description": "Flip 2 coins. This attack does 80 damage times the number of heads.",
+                "Damage": "80\u00d7",
+                "Energy": {
+                    "Metal": 1,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": {
+            "Name": "Shift Gear",
+            "Description": "As often as you like during your turn (before your attack), you may move a Metal Energy attached to 1 of your Pok\u00e9mon to another of your Pok\u00e9mon."
+        },
+        "RetreatCost": 3
+    },
+    "Patrat": {
+        "Name": "Patrat",
+        "HP": "50",
+        "Type": "Colorless",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Tackle",
+                "Description": "",
+                "Damage": "10",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Bite",
+                "Description": "",
+                "Damage": "20",
+                "Energy": {
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Watchog": {
+        "Name": "Watchog",
+        "HP": "90",
+        "Type": "Colorless",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Patrat",
+        "Attacks": [
+            {
+                "Name": "Confuse Ray",
+                "Description": "The Defending Pok\u00e9mon is now Confused.",
+                "Damage": "",
+                "Energy": {
+                    "Colorless": 2
+                }
+            },
+            {
+                "Name": "Hyper Fang",
+                "Description": "Flip a coin. If tails, this attack does nothing.",
+                "Damage": "60",
+                "Energy": {
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Lillipup": {
+        "Name": "Lillipup",
+        "HP": "60",
+        "Type": "Colorless",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Collect",
+                "Description": "Draw a card.",
+                "Damage": "",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Tackle",
+                "Description": "",
+                "Damage": "20",
+                "Energy": {
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Herdier": {
+        "Name": "Herdier",
+        "HP": "80",
+        "Type": "Colorless",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Lillipup",
+        "Attacks": [
+            {
+                "Name": "Collect",
+                "Description": "Draw 3 cards.",
+                "Damage": "",
+                "Energy": {
+                    "Colorless": 2
+                }
+            },
+            {
+                "Name": "Bite",
+                "Description": "",
+                "Damage": "50",
+                "Energy": {
+                    "Colorless": 3
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Stoutland": {
+        "Name": "Stoutland",
+        "HP": "140",
+        "Type": "Colorless",
+        "Stage": "Stage 2",
+        "EvolvesFrom": "Herdier",
+        "Attacks": [
+            {
+                "Name": "Odor Sleuth",
+                "Description": "Flip 3 coins. For each heads, put a card from your discard pile into your hand.",
+                "Damage": "",
+                "Energy": {
+                    "Colorless": 2
+                }
+            },
+            {
+                "Name": "Giga Impact",
+                "Description": "This Pok\u00e9mon can't attack during your next turn.",
+                "Damage": "90",
+                "Energy": {
+                    "Colorless": 4
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 3
+    },
+    "Pidove": {
+        "Name": "Pidove",
+        "HP": "50",
+        "Type": "Colorless",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Quick Attack",
+                "Description": "Flip a coin. If heads, this attack does 10 more damage.",
+                "Damage": "10+",
+                "Energy": {
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Minccino": {
+        "Name": "Minccino",
+        "HP": "60",
+        "Type": "Colorless",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Tail Slap",
+                "Description": "Flip 2 coins. This attack does 10 damage times the number of heads.",
+                "Damage": "10\u00d7",
+                "Energy": {
+                    "Colorless": 1
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Audino": {
+        "Name": "Audino",
+        "HP": "80",
+        "Type": "Colorless",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Doubleslap",
+                "Description": "Flip 2 coins. This attack does 30 damage times the number of heads.",
+                "Damage": "30\u00d7",
+                "Energy": {
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Unfezant": {
+        "Name": "Unfezant",
+        "HP": "120",
+        "Type": "Colorless",
+        "Stage": "Stage 2",
+        "EvolvesFrom": "Tranquill",
+        "Attacks": [
+            {
+                "Name": "Fly",
+                "Description": "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn.",
+                "Damage": "50",
+                "Energy": {
+                    "Colorless": 2
+                }
+            },
+            {
+                "Name": "Cutting Wind",
+                "Description": "",
+                "Damage": "70",
+                "Energy": {
+                    "Colorless": 3
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Tranquill": {
+        "Name": "Tranquill",
+        "HP": "70",
+        "Type": "Colorless",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Pidove",
+        "Attacks": [
+            {
+                "Name": "Gust",
+                "Description": "",
+                "Damage": "20",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Quick Attack",
+                "Description": "Flip a coin. If heads, this attack does 30 more damage.",
+                "Damage": "20+",
+                "Energy": {
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Bouffalant": {
+        "Name": "Bouffalant",
+        "HP": "100",
+        "Type": "Colorless",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Revenge",
+                "Description": "If any of your Pok\u00e9mon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 70 more damage.",
+                "Damage": "20+",
+                "Energy": {
+                    "Colorless": 2
+                }
+            },
+            {
+                "Name": "Head Charge",
+                "Description": "Flip a coin. If tails, this Pok\u00e9mon does 20 damage to itself.",
+                "Damage": "80",
+                "Energy": {
+                    "Colorless": 4
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 2
+    },
+    "Cinccino": {
+        "Name": "Cinccino",
+        "HP": "90",
+        "Type": "Colorless",
+        "Stage": "Stage 1",
+        "EvolvesFrom": "Minccino",
+        "Attacks": [
+            {
+                "Name": "Tail Slap",
+                "Description": "Flip 2 coins. This attack does 20 damage times the number of heads.",
+                "Damage": "20\u00d7",
+                "Energy": {
+                    "Colorless": 1
+                }
+            },
+            {
+                "Name": "Do the Wave",
+                "Description": "Does 20 damage times the number of your Benched Pok\u00e9mon.",
+                "Damage": "20\u00d7",
+                "Energy": {
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    },
+    "Pikachu": {
+        "Name": "Pikachu",
+        "HP": "60",
+        "Type": "Lightning",
+        "Stage": "Basic",
+        "EvolvesFrom": null,
+        "Attacks": [
+            {
+                "Name": "Energize",
+                "Description": "Attach a Lightning Energy from your discard pile to this Pok\u00e9mon.",
+                "Damage": "",
+                "Energy": {
+                    "Lightning": 1
+                }
+            },
+            {
+                "Name": "Thunderbolt",
+                "Description": "Discard all Energy attached to this Pok\u00e9mon.",
+                "Damage": "80",
+                "Energy": {
+                    "Lightning": 1,
+                    "Colorless": 2
+                }
+            }
+        ],
+        "Ability": null,
+        "RetreatCost": 1
+    }
+}
